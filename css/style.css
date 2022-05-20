@@ -1,0 +1,224 @@
+/* border-box fix */
+html {
+	box-sizing: border-box;
+  }
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+  
+  .body {
+	  padding: 0px;
+	  background-color: #F0F0F0;
+	  font-family: "Lucida Grande", Verdana, arial, sans-serif;
+	  color: #333;
+	  font-size: 16px;
+	  line-height: 20px;
+	  margin: 0px;
+	  overflow: scroll;
+	  overflow-x: hidden;
+	  /*display: flex;*/	
+  }
+  
+  .wrapper {
+	  max-width: 90%;
+	  margin: 0 auto;
+	  font-size: 1em;
+	  background-color: #FFF;
+	  font-family: "Lucida Grande", Verdana, arial, sans-serif;
+	  padding: 0px;
+  }
+  
+  .banner {
+	  text-align: center;
+	  color: #fff;
+	  margin-top: 5px;
+	  background-size: 150% 130px;
+	  margin-left:0px;
+	  margin-right:0px;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+	  text-transform: uppercase;
+	  background: url('../images/background.png');
+  }
+  
+  .menu li {
+	  display: inline;
+	  list-style-type: none;
+	  font-size: 25px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+  }
+  
+  .a {
+	  margin: 10px 10px 10px 10px;
+  }
+  .topnav {
+	  overflow: hidden;
+	  background-color:#fff;
+	  grid-column: 1 / 4;
+  }
+  .topnav1 {
+	  overflow: hidden;
+	  background: url('../images/background.png');
+	  color: #FFF;
+	  padding: 10px;
+	  display: flex 1 0 100%;
+  }
+  .topnav a {
+	  float: left;
+	  color: #0090D2;
+	  text-align: center;
+	  width: 150px;
+	  padding: 14px 16px;
+	  margin: 5px;
+	  text-decoration: none;
+	  font-size: 17px;
+	  position: relative;
+	  display: inline;
+  }
+  
+  .topnav a:hover {
+	  border-bottom: 1px solid #000;
+	  text-decoration: none;
+  }
+  
+  .topnav a.active {
+	  border-bottom: 2px solid #000;
+	  color: #000;
+  }
+  .topnav a:focus {
+	  color: #00344d;
+  }
+  
+  .h1_	{
+	  font-family: Georgia, "Times New Roman", Times, serif;
+	  color: #fff;
+	  font-size: 36px;
+	  line-height: 50px;
+  }
+  
+  .h2_ {
+	  color: white;
+	  text-align: center;
+	  font-family: sans-serif;
+	  padding-top: 25px;
+	  padding-bottom: 25px;
+  }
+  
+  .grid-container {
+	  display: grid;
+	  border: 2px solid lightblue;
+	  grid-template-columns: repeat(2, 1fr);
+	  grid-template-rows: minmax(100px, auto);
+	  gap: 10px;
+	  /*background: #0090D2;*/
+  }
+  
+  .grid-item {
+	  padding: 10px 20px;
+	  background: #0090D2;
+  }
+  p, a {
+	  color: #FFF;
+	  margin-left: 5px;
+  }
+  
+  .container1 {
+	  /*float: left;*/
+	  display: grid;
+	  grid-column: 1;
+	  grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .button1 {
+	  background-color: lightskyblue;
+	  font-size: 25px;
+	  border-radius: 25px;
+  }
+  
+  /* share data feature css starts here */
+  
+  .wrapper3 {
+	  max-width: 90%;
+	  margin: 0 auto;
+	  font-size: 1em;
+	  background-color: skyblue;
+	  font-family: "Lucida Grande", Verdana, arial, sans-serif;
+	  padding: 0px;
+  }
+  .container2 {
+	  width: 80%;
+	  margin: 4em auto;
+	  /*background: skyblue;*/
+	  padding-top: 2px;
+	  padding-bottom: 10px;
+  }	
+  
+  .share {
+	  position: inherit;
+	  left: 0;
+	  right: 0;
+	  top: 30px;
+	  margin: auto;
+	  width: 50%;
+	  z-index: 1;
+	  padding: 2em;
+	  background: #FFF;
+  
+  }
+  .h2_share {
+	  margin: 0;
+	  padding-bottom: 10px;
+  }
+  
+  .button3 {
+	  border: none;
+	  padding: .8em .4em;
+	  margin: 2em;
+	  width: 33%;
+	  cursor: pointer;
+  }
+  
+  .button2 {
+	  border: none;
+	  outline: none;
+	  padding: 1em 1.5em;
+	  font-size: 1rem;
+	  margin: 2em;
+	  cursor: pointer;
+	  background: rgb(158, 0, 250);
+	  color: white;
+	  font-weight: bold;
+	  /*will-change: background;*/
+	  transition: 1s;
+	  border-radius: 25px;
+  }
+  
+  .overlay {
+	  opacity: 1;
+	  position: absolute;
+	  z-index: 0;
+	  top: 0;
+	  left: 0;
+	  width: 100vw;
+	  height: 100vh;
+	  background: rgba(0, 0, 0, .5);
+  }
+  .share, .overlay {
+	  display: none;
+  }
+  .show-share {
+	  display: block;
+  }
+  
+  
+  .footer1 {
+	  text-align: center;
+	  margin-top: 150px;
+	  padding-top: 5px;
+	  padding-bottom: 5px;
+	  color: #fff;
+	  text-transform: uppercase;
+	  background: url('../images/background.png');
+  
+  }
+  

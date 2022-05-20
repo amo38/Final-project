@@ -1,0 +1,239 @@
+/* The main home page and the whole app sytle, starts here.---------------------------------------------------------------------*/
+
+/* Contact form style starts here.----------------------------------------------------------------------------------------------
+* - please don't change anything here, or it will affect the whole contact_us page and any connected pages.
+* - Thanks.
+*/
+/* border-box fix */
+html {
+	box-sizing: border-box;
+  }
+  *, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.body_form {
+	padding: 0px;
+	background-color: #F0F0F0;
+	font-family: "Lucida Grande", Verdana, arial, sans-serif;
+	color: #333;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.wrapper2 {
+    max-width: 90%;
+	margin: 0 auto;
+	font-size: 1em;
+	background-color: #FFF;
+	font-family: "Lucida Grande", Verdana, arial, sans-serif;
+	padding: 0px;
+}
+
+/*.banner2 {
+	text-align: center;
+	background-size: 150% 130px;
+	margin-left:0px;
+	margin-right:0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-transform: uppercase;	
+	background-image: url("background.jpeg");
+}
+*/
+.banner {
+	text-align: center;
+	color: #fff;
+	margin-top: 5px;
+	background-size: 150% 130px;
+	margin-left:0px;
+	margin-right:0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	background: url('../images/background.png');
+}
+
+.menu2 li {
+	display: inline;
+	list-style-type: none;
+	font-size: 25px;
+  	margin-left: 10px;
+  	margin-right: 10px;
+}
+
+.a {
+	margin: 10px 10px 10px 10px;
+}
+.topnav2 {
+    overflow: hidden;
+	background-color:#fff;
+}
+
+.topnav2 a {
+	float: left;
+    color: #0090D2;
+    text-align: center;
+    width: 150px;
+    padding: 14px 16px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    display: inline;
+}
+
+.topnav2 a:hover {
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+}
+
+.topnav2 a.active {
+    border-bottom: 3px solid #000;
+    color: #000;
+}
+.topnav2 a:focus {
+	color: #00344d;
+}
+
+.h1_2	{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.h2_2 {
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-image: url("background.jpeg");
+}
+
+.img_form {
+	display: flex;
+	margin-top: -100px;
+	margin-right: 0px;
+	margin-left: 10px;
+	width: 10%;
+	height: 10%;
+}
+
+.main_login {
+	padding: 50px;
+	padding-bottom: 100px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	background-color: #b3d1ff;
+}
+
+.box_login {
+
+	margin: auto;
+	width: 300px;
+	padding: 20px;
+	background-color: skyblue;
+}
+.btn_login {
+	width: 100%;
+	margin: auto;
+	margin-top: 5px;
+	height: 25px;
+}
+#text_login {
+	height: 25px;
+	
+}
+#text_login2 {
+	height: 25px;
+}
+.input_login, .textarea1 {
+	height: 25px;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: auto;
+	display: block;
+	margin-bottom: 10px;
+}
+.textarea1 {
+	height: 5em;
+	width: 100%;
+}
+
+/*Login forms ends here ------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 35em){
+	#wrapper2 {
+		max-width: 90%;
+		margin: 0 auto;
+		font-size: 1em;
+		background-color: #FFF;
+		font-family: "Lucida Grande", Verdana, arial, sans-serif;
+		padding: 0px;
+	}
+}
+@media (min-width: 50em){
+	#wrapper2 {
+		max-width: 90%;
+		margin: 0 auto;
+		font-size: 1em;
+		background-color: #FFF;
+		font-family: "Lucida Grande", Verdana, arial, sans-serif;
+		padding: 0px;
+	}
+}
+@media (min-width: 60em){
+	#wrapper2 {
+		max-width: 90%;
+		margin: 0 auto;
+		font-size: 1em;
+		background-color: #FFF;
+		font-family: "Lucida Grande", Verdana, arial, sans-serif;
+		padding: 0px;
+	}
+}
+@media (min-width: 35em){
+	.topnav {
+		display: flex;
+		justify-content: center;
+		overflow: hidden;
+		padding: 5px;
+		background-color: #fff;
+	}
+}
+@media (min-width: 50em){
+	.topnav {
+		display: flex;
+		justify-content: center;
+		overflow: hidden;
+		padding: 5px;
+		background-color: #fff;
+	}
+}
+@media (min-width: 60em){
+	.topnav {
+		display: flex;
+		justify-content: center;
+		overflow: hidden;
+		padding: 5px;
+		background-color: #fff;
+	}
+}
+
+/*.parallax {
+    background-image: url("background.jpeg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lucida Grande", Verdana, arial, sans-serif;
+}
